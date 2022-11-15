@@ -16,7 +16,7 @@ function onChangeDivision(){
     let textBox = document.getElementById("textBox")
     let text = textBox.innerText
     let textBoxMaths = document.getElementById("mathJaxTextBox")
-    textBoxMaths.innerHTML = "<MathText>{text}</MathText>"
+    textBoxMaths.innerHTML = <MathText>{text}</MathText>
 }
 
 export default function MathTextInput(){
