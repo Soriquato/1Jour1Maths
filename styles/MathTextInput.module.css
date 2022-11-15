@@ -1,6 +1,7 @@
 .textBox {
     width: 200px;
-    height: 50px;
+    min-height: 50px;
+    height: auto;
     background-color: #ffffff;
     resize: none;
     outline: none;
@@ -8,7 +9,8 @@
 }
 .textBoxMaths {
     width: 200px;
-    height: 50px;
+    min-height: 50px;
+    height: auto;
     background-color: #ffffff;
     resize: none;
     outline: none;
